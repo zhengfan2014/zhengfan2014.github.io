@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>开眼 for kodi 首个版本发布啦 | zhengfan&#39;Blog</title>
-<link rel="shortcut icon" href="https://zhengfan2014.github.io/favicon.ico?v=1608000285239">
+<link rel="shortcut icon" href="https://zhengfan2014.github.io/favicon.ico?v=1608001037529">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zhengfan2014.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="开眼 for kodi 首个版本发布啦 | zhengfan&#39;Blog - Atom Feed" href="https://zhengfan2014.github.io/atom.xml">
@@ -53,7 +53,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://zhengfan2014.github.io">
-  <img class="avatar" src="https://zhengfan2014.github.io/images/avatar.png?v=1608000285239" alt="">
+  <img class="avatar" src="https://zhengfan2014.github.io/images/avatar.png?v=1608001037529" alt="">
   </a>
   <h1 class="site-title">
     zhengfan&#39;Blog
@@ -182,25 +182,28 @@
 
         
           
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-          
-            <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css">
-<script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
-
-<div id="disqus_thread"></div>
+<div id="gitalk-container"></div>
 
 <script>
 
-var options = {
-  shortname: 'aaa',
-  apikey: 'TYxsXDteXuYFBifgKEptZQlXnKQq4Icq1KmlnJcSMSurcur2DuV5QkZoitGGeefT',
-}
-if ('') {
-  options.api = ''
-}
-var dsqjs = new DisqusJS(options)
+  var gitalk = new Gitalk({
+    clientID: 'c4157b8d8773c6095631',
+    clientSecret: 'c454fc029a4f5e4c7e9887d59071e578cb9cc040',
+    repo: 'gitalk',
+    owner: 'zhengfan2014',
+    admin: ['zhengfan2014'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
 
 </script>
+
+          
 
           
         
