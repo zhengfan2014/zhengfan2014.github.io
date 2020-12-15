@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2020-12-15T05:42:46.901Z</updated>
+    <updated>2020-12-15T06:06:05.575Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
@@ -99,7 +99,7 @@
         <id>https://zhengfan2014.github.io/post/acfun-for-kodi-022/</id>
         <link href="https://zhengfan2014.github.io/post/acfun-for-kodi-022/">
         </link>
-        <updated>2020-08-29T16:00:00.000Z</updated>
+        <updated>2020-08-29T16:00:01.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
 <p>感谢反馈，因为acfun小改了有关视频清晰度的json，所以失效了</p>
 </blockquote>
@@ -116,33 +116,114 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[开眼 for kodi 首个版本发布啦]]></title>
-        <id>https://zhengfan2014.github.io/post/kai-yan-for-kodi-shou-ge-ban-ben-fa-bu-la/</id>
-        <link href="https://zhengfan2014.github.io/post/kai-yan-for-kodi-shou-ge-ban-ben-fa-bu-la/">
+        <title type="html"><![CDATA[bangumi for kodi 0.2.0]]></title>
+        <id>https://zhengfan2014.github.io/post/bangumi-for-kodi-020/</id>
+        <link href="https://zhengfan2014.github.io/post/bangumi-for-kodi-020/">
         </link>
-        <updated>2020-03-09T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="版本">版本</h3>
+        <updated>2020-08-29T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
 <ul>
-<li>0.1.0</li>
+<li>增加 - tucao弹幕网的api功能，可以看tucao网页版提示版权退稿的番剧了</li>
+<li>修复 - agefans.tw失效</li>
+<li>修复 - silisili失效</li>
+<li>修复 - 柠檬瞬间视频资源获取失败</li>
+<li>修复 - srsg失效</li>
+<li>修复 - clicli.me 失效</li>
+<li>新增 - zzzfun</li>
+<li>新增 - 动漫岛</li>
+<li>修复 - 其他细节优化</li>
 </ul>
-<h3 id="功能">功能</h3>
-<ul>
-<li>显示开眼每日推荐</li>
-<li>显示周排行</li>
-<li>显示月排行<br>
-<img src="https://zhengfan2014.github.io/post-images/1607999294098.jpg" alt="" loading="lazy"><br>
-<img src="https://zhengfan2014.github.io/post-images/1607999305091.jpg" alt="" loading="lazy"><br>
-<img src="https://zhengfan2014.github.io/post-images/1607999309644.jpg" alt="" loading="lazy"><br>
-<img src="https://zhengfan2014.github.io/post-images/1607999314566.jpg" alt="" loading="lazy"><br>
-<img src="https://zhengfan2014.github.io/post-images/1607999318308.jpg" alt="" loading="lazy"></li>
-</ul>
-<h3 id="已知bug">已知bug</h3>
-<ul>
-<li>专题报错（因为还没有写）</li>
-</ul>
+<p>PS:显示为粉色的网站使用弹幕插件搜索弹幕的时候会自动匹配番剧（如果a,b站有这部番的话）</p>
 <h3 id="下载地址">下载地址</h3>
 <ul>
-<li><a href="https://sn9.us/file952/11230964-427684603">诚通网盘</a></li>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bilibili for kodi 0.5.6]]></title>
+        <id>https://zhengfan2014.github.io/post/bilibili-for-kodi-056/</id>
+        <link href="https://zhengfan2014.github.io/post/bilibili-for-kodi-056/">
+        </link>
+        <updated>2020-08-16T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
+<ul>
+<li>新增 - 4K，1080p60，720p60等解析选项（需要大会员）</li>
+<li>修改 - 调低视频解析api缓存时间 10分钟 - &gt; 1 分钟（国内大会员视频无法解析，请尝试关闭翻墙或者，把bilibili.com加入不翻名单）</li>
+<li>新增 - 搜索列表显示视频播放量，up主，番剧简介等信息</li>
+<li>修复 - 番剧剧集的排序方式，从最新一集到第一集</li>
+<li>新增 - 设置 - 海外模式，海外cdn替换，4k/1080p60显示开关</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://zhengfan2014.github.io/post-images/1608011500066.jpg" alt="" loading="lazy"></figure>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[reallive for kodi 0.1.2]]></title>
+        <id>https://zhengfan2014.github.io/post/reallive-for-kodi-012/</id>
+        <link href="https://zhengfan2014.github.io/post/reallive-for-kodi-012/">
+        </link>
+        <updated>2020-08-06T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>因为wbt5大佬的解析代码import了execjs，所以需要安装依赖 <strong>script.module.execjs.zip</strong>，用于解析斗鱼真实播放地址</p>
+</blockquote>
+<h3 id="更新内容">更新内容</h3>
+<ul>
+<li>修复 - 虎牙解析失效</li>
+<li>修复 - 斗鱼解析失效（感谢wbt5的realurl的代码）</li>
+</ul>
+<p>注：win系统下kodi解析斗鱼直播地址中会出现两次这种窗口<br>
+<img src="https://zhengfan2014.github.io/post-images/1608011817925.jpg" alt="" loading="lazy"><br>
+是execjs运行js代码生成的，属于正常现象😂</p>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bilibili for kodi 0.5.5]]></title>
+        <id>https://zhengfan2014.github.io/post/bilibili-for-kodi-055/</id>
+        <link href="https://zhengfan2014.github.io/post/bilibili-for-kodi-055/">
+        </link>
+        <updated>2020-08-04T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>FBI Warring ! 本次更新会丢失插件以前所有设置！！</p>
+</blockquote>
+<h3 id="更新内容">更新内容</h3>
+<ul>
+<li>新增 - 知识区，国漫，纪录片等分类</li>
+<li>修改 - 设置移动至 选项 - 插件设置（图1）</li>
+<li>修复 - re 从零开始的异世界生活第二季番剧无法打开问题</li>
+<li>新增 - 大会员解析设置</li>
+<li>新增 - 内置弹幕（万分感谢shaolin-kongfu的代码）</li>
+<li>新增 - 弹幕ass文件保存位置设置</li>
+<li>修改 - danmuku.py仅删除弹幕文件夹下所有xml和ass文件</li>
+<li>新增 - 视频列表显示视频播放量，up主等信息</li>
+</ul>
+<h3 id="关于设置的大会员解析sess和主账号sess说明">关于设置的大会员解析sess和主账号sess说明</h3>
+<p>这个功能有点类似油猴的b站evol脚本的“被永封的大会员”功能<br>
+也就是，你不开启，使用下面的sess解析大会员视频<br>
+<img src="https://zhengfan2014.github.io/post-images/1608012168099.jpg" alt="" loading="lazy"><br>
+就是使用你主账号填写sess来解析大会员和普通视频</p>
+<p>如果你开启了，只要是视频解析都会使用这个sess来解析，但是其他的比如读取你的收藏，追番等还是用你主账号的sess。</p>
+<h3 id="关于内置弹幕的食用方法">关于内置弹幕的食用方法：</h3>
+<p>首先，在设置了开启内置弹幕功能<br>
+然后设置好弹幕缓存文件夹<br>
+在播放视频的时候，选择右下角的字幕<br>
+<img src="https://zhengfan2014.github.io/post-images/1608012187074.jpg" alt="" loading="lazy"><br>
+浏览字幕<br>
+<img src="https://zhengfan2014.github.io/post-images/1608012197522.jpg" alt="" loading="lazy"><br>
+选择你之前设置的文件夹位置，选择那个ass字幕文件<br>
+<img src="https://zhengfan2014.github.io/post-images/1608012208387.jpg" alt="" loading="lazy"><br>
+完成效果<br>
+<img src="https://zhengfan2014.github.io/post-images/1608012215377.jpg" alt="" loading="lazy"></p>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
 </ul>
 ]]></content>
     </entry>
