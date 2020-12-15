@@ -2,11 +2,11 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>【置顶】个人的github 静态博客开通啦 | zhengfan&#39;Blog</title>
+<title>acfun弹幕插件0.1.1发布！ | zhengfan&#39;Blog</title>
 <link rel="shortcut icon" href="https://zhengfan2014.github.io/favicon.ico?v=1608045573585">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zhengfan2014.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="【置顶】个人的github 静态博客开通啦 | zhengfan&#39;Blog - Atom Feed" href="https://zhengfan2014.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="acfun弹幕插件0.1.1发布！ | zhengfan&#39;Blog - Atom Feed" href="https://zhengfan2014.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
@@ -20,10 +20,12 @@
 </script>
 
 
-    <meta name="description" content="最近发现爱发电屏蔽了未注册用户的动态浏览和对网页访问加大限制，需要手动复制粘贴打开网页。
-对一些对爱发电不是很了解的萌新造成了困扰，故开此blog，作为kodi插件的另一个发布平台，以后有插件更新发布将会在两边同步更新
-并将会陆陆续续搬运爱..." />
-    <meta name="keywords" content="" />
+    <meta name="description" content="致谢名单
+
+万分感谢GitHub的 shaolin-kongfu 的代码，b站弹幕插件和acfun弹幕插件是受到 shaolin-kongfu 的 danmu 代码启发而做成的
+感谢 xml2ass 的作者 m13253 做出的这么好的库
+..." />
+    <meta name="keywords" content="弹幕,Acfun,Kodi插件" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -103,27 +105,93 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              【置顶】个人的github 静态博客开通啦
+              acfun弹幕插件0.1.1发布！
             </h2>
             <div class="post-info">
               <span>
-                2020-12-15
+                2020-07-20
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
+              
+                <a href="https://zhengfan2014.github.io/tag/ChFt_in4W/" class="post-tag">
+                  # 弹幕
+                </a>
+              
+                <a href="https://zhengfan2014.github.io/tag/yV9Uu2QB5/" class="post-tag">
+                  # Acfun
+                </a>
+              
+                <a href="https://zhengfan2014.github.io/tag/KKMwFAB-FR/" class="post-tag">
+                  # Kodi插件
+                </a>
               
             </div>
             
+              <img class="post-feature-image" src="https://zhengfan2014.github.io/post-images/acfun-dan-mu-cha-jian-011-fa-bu.jpg" alt="">
+            
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>最近发现爱发电屏蔽了未注册用户的动态浏览和对网页访问加大限制，需要手动复制粘贴打开网页。<br>
-对一些对爱发电不是很了解的萌新造成了困扰，故开此blog，作为kodi插件的另一个发布平台，以后有插件更新发布将会在两边同步更新</p>
-<p>并将会陆陆续续搬运爱发电上历史动态过来</p>
+                <h3 id="致谢名单">致谢名单</h3>
+<ul>
+<li>万分感谢GitHub的 <strong><a href="https://github.com/shaolin-kongfu">shaolin-kongfu</a></strong> 的代码，b站弹幕插件和acfun弹幕插件是受到 shaolin-kongfu 的 <strong><a href="https://github.com/shaolin-kongfu/danmu">danmu</a></strong> 代码启发而做成的</li>
+<li>感谢 <strong><a href="https://github.com/m13253/danmaku2ass/tree/py2">xml2ass</a></strong> 的作者 <strong><a href="https://github.com/m13253">m13253</a></strong> 做出的这么好的库</li>
+<li>感谢 <strong><a href="https://github.com/taxigps">taxigps</a></strong> 的字幕插件，这两个弹幕插件基于taxigps的 <strong><a href="https://github.com/taxigps/xbmc-addons-chinese/tree/master/service.subtitles.zimuku">zimuzu字幕插件</a></strong> 二次修改</li>
+</ul>
+<h3 id="对acfun插件的支持情况">对Acfun插件的支持情况</h3>
+<ul>
+<li>支持0.2.0+的 Acfun插件</li>
+</ul>
+<h3 id="插件说明">插件说明</h3>
+<p>acfun弹幕插件因为xml2ass的py2分支已经不支持新版acfun的json弹幕转换，而且我也不想改xml2ass代码。<br>
+就直接把json的弹幕缝合成b站的xml弹幕，再由xml2ass转换。</p>
+<p>但是，有些json的字符，放在xml可能会出问题，所以并非所有acfun视频都可以正常使用。<br>
+如果你发现哪些acfun视频加载弹幕出错。<br>
+可以留下ac号和集数，我看看能不能修😂</p>
+<h3 id="插件功能">插件功能</h3>
+<ul>
+<li>自动搜索a站对应弹幕</li>
+<li>支持手动搜索a站弹幕</li>
+<li>支持本地nas等视频的弹幕加载</li>
+</ul>
+<p>PS： 如果不想手动输入关键词搜索弹幕，请将你的视频文件名字设为和想加载的acfun视频名字一致。</p>
+<h3 id="食用方式">食用方式</h3>
+<p>1.播放视频<br>
+2.选择右下角的字幕<br>
+<img src="https://zhengfan2014.github.io/post-images/1608043752121.jpg" alt="" loading="lazy"><br>
+3.选择下载字幕<br>
+<img src="https://zhengfan2014.github.io/post-images/1608043767951.jpg" alt="" loading="lazy"><br>
+4.在左侧的服务程序选择Acfun，右侧选择符合你视频的弹幕文件<br>
+<img src="https://zhengfan2014.github.io/post-images/1608043776508.jpg" alt="" loading="lazy"><br>
+5.等待将acfun json字幕 转换成 ass字幕<br>
+<img src="https://zhengfan2014.github.io/post-images/1608043782780.jpg" alt="" loading="lazy"><br>
+6.开始食用<br>
+<img src="https://zhengfan2014.github.io/post-images/1608043789969.jpg" alt="" loading="lazy"></p>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E8%87%B4%E8%B0%A2%E5%90%8D%E5%8D%95">致谢名单</a></li>
+<li><a href="#%E5%AF%B9acfun%E6%8F%92%E4%BB%B6%E7%9A%84%E6%94%AF%E6%8C%81%E6%83%85%E5%86%B5">对Acfun插件的支持情况</a></li>
+<li><a href="#%E6%8F%92%E4%BB%B6%E8%AF%B4%E6%98%8E">插件说明</a></li>
+<li><a href="#%E6%8F%92%E4%BB%B6%E5%8A%9F%E8%83%BD">插件功能</a></li>
+<li><a href="#%E9%A3%9F%E7%94%A8%E6%96%B9%E5%BC%8F">食用方式</a></li>
+<li><a href="#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80">下载地址</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -132,9 +200,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://zhengfan2014.github.io/post/lao-cha-jian-fan-xin-ing/">
+            <a href="https://zhengfan2014.github.io/post/cine-for-kodi-020/">
               <h3 class="post-title">
-                老插件翻新ing.......
+                cine for kodi 0.2.0
               </h3>
             </a>
           </div>

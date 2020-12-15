@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2020-12-15T14:40:10.864Z</updated>
+    <updated>2020-12-15T15:27:28.395Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
@@ -10,13 +10,13 @@
     <icon>https://zhengfan2014.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhengfan&apos;Blog</rights>
     <entry>
-        <title type="html"><![CDATA[个人的github 静态博客开通啦]]></title>
+        <title type="html"><![CDATA[【置顶】个人的github 静态博客开通啦]]></title>
         <id>https://zhengfan2014.github.io/post/ge-ren-de-github-jing-tai-bo-ke-kai-tong-la/</id>
         <link href="https://zhengfan2014.github.io/post/ge-ren-de-github-jing-tai-bo-ke-kai-tong-la/">
         </link>
         <updated>2020-12-15T02:32:24.000Z</updated>
         <content type="html"><![CDATA[<p>最近发现爱发电屏蔽了未注册用户的动态浏览和对网页访问加大限制，需要手动复制粘贴打开网页。<br>
-故开此blog，作为kodi插件的另一个发布平台，以后有插件更新发布将会在两边同步更新</p>
+对一些对爱发电不是很了解的萌新造成了困扰，故开此blog，作为kodi插件的另一个发布平台，以后有插件更新发布将会在两边同步更新</p>
 <p>并将会陆陆续续搬运爱发电上历史动态过来</p>
 ]]></content>
     </entry>
