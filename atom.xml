@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhengfan2014.github.io</id>
+    <title>zhengfan&apos;Blog</title>
+    <updated>2020-12-15T02:45:17.482Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhengfan2014.github.io"/>
+    <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
+    <logo>https://zhengfan2014.github.io/images/avatar.png</logo>
+    <icon>https://zhengfan2014.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, zhengfan&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[个人的github 静态博客开通啦]]></title>
+        <id>https://zhengfan2014.github.io/post/ge-ren-de-github-jing-tai-bo-ke-kai-tong-la/</id>
+        <link href="https://zhengfan2014.github.io/post/ge-ren-de-github-jing-tai-bo-ke-kai-tong-la/">
+        </link>
+        <updated>2020-12-15T02:32:24.000Z</updated>
+        <content type="html"><![CDATA[<p>最近发现爱发电屏蔽了未注册用户的动态浏览和对网页访问加大限制，需要手动复制粘贴打开网页。<br>
+故开此blog，作为kodi插件的另一个发布平台，以后有插件更新发布将会在两边同步更新</p>
+<p>并将会陆陆续续搬运爱发电上历史动态过来</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[老插件翻新ing.......]]></title>
+        <id>https://zhengfan2014.github.io/post/lao-cha-jian-fan-xin-ing/</id>
+        <link href="https://zhengfan2014.github.io/post/lao-cha-jian-fan-xin-ing/">
+        </link>
+        <updated>2020-11-22T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://zhengfan2014.github.io/post-images/1608000082053.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608000086057.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608000089443.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608000093387.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608000109719.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开眼 for kodi 首个版本发布啦]]></title>
+        <id>https://zhengfan2014.github.io/post/kai-yan-for-kodi-shou-ge-ban-ben-fa-bu-la/</id>
+        <link href="https://zhengfan2014.github.io/post/kai-yan-for-kodi-shou-ge-ban-ben-fa-bu-la/">
+        </link>
+        <updated>2020-03-09T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="版本">版本</h3>
+<ul>
+<li>0.1.0</li>
+</ul>
+<h3 id="功能">功能</h3>
+<ul>
+<li>显示开眼每日推荐</li>
+<li>显示周排行</li>
+<li>显示月排行<br>
+<img src="https://zhengfan2014.github.io/post-images/1607999294098.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1607999305091.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1607999309644.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1607999314566.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1607999318308.jpg" alt="" loading="lazy"></li>
+</ul>
+<h3 id="已知bug">已知bug</h3>
+<ul>
+<li>专题报错（因为还没有写）</li>
+</ul>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://sn9.us/file952/11230964-427684603">诚通网盘</a></li>
+</ul>
+]]></content>
+    </entry>
+</feed>
