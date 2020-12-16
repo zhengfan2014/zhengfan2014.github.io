@@ -3,11 +3,16 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>开眼 for kodi 首个版本发布啦 | zhengfan&#39;Blog</title>
-<link rel="shortcut icon" href="https://zhengfan2014.github.io/favicon.ico?v=1608045573585">
+<link rel="shortcut icon" href="https://zhengfan2014.github.io/favicon.ico?v=1608095368331">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zhengfan2014.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="开眼 for kodi 首个版本发布啦 | zhengfan&#39;Blog - Atom Feed" href="https://zhengfan2014.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTTFMT3L74"></script>
@@ -53,7 +58,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://zhengfan2014.github.io">
-  <img class="avatar" src="https://zhengfan2014.github.io/images/avatar.png?v=1608045573585" alt="">
+  <img class="avatar" src="https://zhengfan2014.github.io/images/avatar.png?v=1608095368331" alt="">
   </a>
   <h1 class="site-title">
     zhengfan&#39;Blog
@@ -195,32 +200,19 @@
         
 
         
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'c4157b8d8773c6095631',
-    clientSecret: 'c454fc029a4f5e4c7e9887d59071e578cb9cc040',
-    repo: 'gitalk',
-    owner: 'zhengfan2014',
-    admin: ['zhengfan2014'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
+		
+		
+		
+		  <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'bAskvmxMrMG0iCojK1sj10oy-gzGzoHsz',
+            appKey: 'KL0l0ICjrjr1qzFYIX4q0yr8'
+        })
+    </script>
+		
+		
 
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
@@ -230,6 +222,10 @@
 </div>
 
       </div>
+	  
+	  
+	
+	  
     </div>
 
     <script>
@@ -272,5 +268,8 @@
       });
 
     </script>
+	
+	
+	
   </body>
 </html>
