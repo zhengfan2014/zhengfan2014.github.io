@@ -1,0 +1,277 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>bilibili for kodi 0.5.0 | zhengfan&#39;Blog</title>
+<link rel="shortcut icon" href="https://zhengfan2014.github.io/favicon.ico?v=1608116640563">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zhengfan2014.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="bilibili for kodi 0.5.0 | zhengfan&#39;Blog - Atom Feed" href="https://zhengfan2014.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<script src="https://unpkg.com/minivaline/dist/MiniValine.min.js"></script>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BTTFMT3L74"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BTTFMT3L74');
+</script>
+
+
+    <meta name="description" content="更新内容
+
+显示视频简介，播放量，弹幕数，评论数等基本信息。
+显示av号和bv号
+娱乐功能:显示视频的白嫖率(之前在b吧发帖征求意见，大家对这个意见很大，所以默认不开启，可在设置手动开启)
+评论区功能
+up个人主页，可查看它发过的所有视频，..." />
+    <meta name="keywords" content="Bilibili,Kodi插件" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhengfan2014.github.io">
+  <img class="avatar" src="https://zhengfan2014.github.io/images/avatar.png?v=1608116640563" alt="">
+  </a>
+  <h1 class="site-title">
+    zhengfan&#39;Blog
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/zhengfan2014" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://space.bilibili.com/25818910" target="_blank">
+          <i class="ri-bilibili-line"></i>
+        </a>
+      
+    
+      
+    
+      
+        <a href="https://afdian.net/@zhengfan2014" target="_blank">
+          <i class="ri-hand-heart-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              bilibili for kodi 0.5.0
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-26
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+                <a href="https://zhengfan2014.github.io/tag/AnAZzXQ8N/" class="post-tag">
+                  # Bilibili
+                </a>
+              
+                <a href="https://zhengfan2014.github.io/tag/KKMwFAB-FR/" class="post-tag">
+                  # Kodi插件
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://zhengfan2014.github.io/post-images/bilibili-for-kodi-050.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h3 id="更新内容">更新内容</h3>
+<ul>
+<li>显示视频简介，播放量，弹幕数，评论数等基本信息。</li>
+<li>显示av号和bv号</li>
+<li>娱乐功能:显示视频的白嫖率(之前在b吧发帖征求意见，大家对这个意见很大，所以默认不开启，可在设置手动开启)</li>
+<li>评论区功能</li>
+<li>up个人主页，可查看它发过的所有视频，可以直接进入它的直播间，还可以查看它的个人信息</li>
+<li>增加一个官方api2用于解析视频和番剧，没有填写SESSDATA(未登陆)，只能播放720p以下视频，填写了可以看1080p。官方api1无需SESSDATA可解析1080p，仅限视频，番剧不可以。</li>
+<li>增加两个第三方api用于解析港澳台番剧，不过我建议各位不要抱太大期待，港澳台连接的国外服务器，速度可能慢到卡成ppt。有个b站大佬做过个一键筛选b站海外最快cdn的ip地址的工具，你们可以试下</li>
+<li>读取自己的收藏夹所有视频，追番列表，追剧列表，查看自己所有的投稿视频。(需要设置你b站号的SESSDATA和UID)，不然无法读取</li>
+<li>改进的搜索功能，能记录历史搜索，支持直接通过av号，bv号等等访问视频或者直播间</li>
+<li>支持观看b站直播，显示直播基本信息</li>
+</ul>
+<h3 id="demo">demo</h3>
+<p><img src="https://zhengfan2014.github.io/post-images/1608110802664.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110809842.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110816537.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110822708.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110832301.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110851311.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110858251.jpg" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608110863610.jpg" alt="" loading="lazy"></p>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9">更新内容</a></li>
+<li><a href="#demo">demo</a></li>
+<li><a href="#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80">下载地址</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zhengfan2014.github.io/post/acfun-for-kodi-020/">
+              <h3 class="post-title">
+                Acfun for Kodi 0.2.0
+              </h3>
+            </a>
+          </div>
+        
+
+        
+		
+		
+		<br>
+		<h3 class="vcount" style="display: block;">友♁爱的评论区</h3>
+		<br>
+		  
+	<div class="mvcomment"></div>
+    <script>
+      new MiniValine({
+          el: '.mvcomment',
+          appId: 'bAskvmxMrMG0iCojK1sj10oy-gzGzoHsz',
+          appKey: 'KL0l0ICjrjr1qzFYIX4q0yr8',
+          placeholder: '在这里写评论 O(∩_∩)O~~',
+          emotionUrl: ['https://mirrorcdn.bili33.top/alu','	https://mirrorcdn.bili33.top/bilibiliHotKey','https://mirrorcdn.bili33.top/bilibilitv','https://mirrorcdn.bili33.top/Coolapk']
+      })
+    </script>
+		
+		
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://zhengfan2014.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+	  
+	  
+	
+	  
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+	
+	
+	
+  </body>
+</html>
