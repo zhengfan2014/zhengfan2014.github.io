@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script src="https://unpkg.com/minivaline/dist/MiniValine.min.js"></script>
 
 
 
@@ -189,14 +190,19 @@
         
 		
 		
-		
-		  <div id="vcomments"></div>
+		<br>
+		<h3 class="vcount" style="display: block;">友♁爱的评论区</h3>
+		<br>
+		  
+	<div class="mvcomment"></div>
     <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'bAskvmxMrMG0iCojK1sj10oy-gzGzoHsz',
-            appKey: 'KL0l0ICjrjr1qzFYIX4q0yr8'
-        })
+      new MiniValine({
+          el: '.mvcomment',
+          appId: 'bAskvmxMrMG0iCojK1sj10oy-gzGzoHsz',
+          appKey: 'KL0l0ICjrjr1qzFYIX4q0yr8',
+          placeholder: '在这里写评论 O(∩_∩)O~~',
+          emotionUrl: ['https://mirrorcdn.bili33.top/alu','	https://mirrorcdn.bili33.top/bilibiliHotKey','https://mirrorcdn.bili33.top/bilibilitv','https://mirrorcdn.bili33.top/Coolapk']
+      })
     </script>
 		
 		
