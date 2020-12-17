@@ -2,13 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2020-12-16T13:13:07.014Z</updated>
+    <updated>2020-12-17T06:55:23.905Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
     <logo>https://zhengfan2014.github.io/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhengfan&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[taptap for kodi 0.2.1]]></title>
+        <id>https://zhengfan2014.github.io/post/taptap-for-kodi-021/</id>
+        <link href="https://zhengfan2014.github.io/post/taptap-for-kodi-021/">
+        </link>
+        <updated>2020-12-17T06:50:54.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>警告：本插件有可能触发阿里云云盾的反爬虫防护，具体表现为你网络下所有设备使用taptap的网站和app播放视频出现视频无法播放502错误。大概隔个几十分钟后会解除封禁。<br>
+我把对m3u8文件的缓存时间加到30分钟，只测试了几个视频没有触发阿里云的云盾。没有大量测试过，不保证你的ip不会被封禁<br>
+<strong>使用前请三思</strong></p>
+</blockquote>
+<h3 id="本次更新">本次更新</h3>
+<ul>
+<li>修复taptap插件失效的代码</li>
+<li>加入缓存功能，降低请求频率</li>
+<li>增加简介，可以查看游戏具体评分，介绍等</li>
+</ul>
+<h3 id="demo">demo</h3>
+<p><img src="https://zhengfan2014.github.io/post-images/1608187966968.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608187977269.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608187981353.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608187989212.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608187995370.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608188000117.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608188005600.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608188014893.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1608188027610.png" alt="" loading="lazy"></p>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【置顶】个人的github 静态博客开通啦&所有插件下载地址]]></title>
         <id>https://zhengfan2014.github.io/post/ge-ren-de-github-jing-tai-bo-ke-kai-tong-la/</id>
@@ -364,49 +397,6 @@
 <p>注：win系统下kodi解析斗鱼直播地址中会出现两次这种窗口<br>
 <img src="https://zhengfan2014.github.io/post-images/1608011817925.jpg" alt="" loading="lazy"><br>
 是execjs运行js代码生成的，属于正常现象😂</p>
-<h3 id="下载地址">下载地址</h3>
-<ul>
-<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[bilibili for kodi 0.5.5]]></title>
-        <id>https://zhengfan2014.github.io/post/bilibili-for-kodi-055/</id>
-        <link href="https://zhengfan2014.github.io/post/bilibili-for-kodi-055/">
-        </link>
-        <updated>2020-08-04T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>FBI Warring ! 本次更新会丢失插件以前所有设置！！</p>
-</blockquote>
-<h3 id="更新内容">更新内容</h3>
-<ul>
-<li>新增 - 知识区，国漫，纪录片等分类</li>
-<li>修改 - 设置移动至 选项 - 插件设置（图1）</li>
-<li>修复 - re 从零开始的异世界生活第二季番剧无法打开问题</li>
-<li>新增 - 大会员解析设置</li>
-<li>新增 - 内置弹幕（万分感谢shaolin-kongfu的代码）</li>
-<li>新增 - 弹幕ass文件保存位置设置</li>
-<li>修改 - danmuku.py仅删除弹幕文件夹下所有xml和ass文件</li>
-<li>新增 - 视频列表显示视频播放量，up主等信息</li>
-</ul>
-<h3 id="关于设置的大会员解析sess和主账号sess说明">关于设置的大会员解析sess和主账号sess说明</h3>
-<p>这个功能有点类似油猴的b站evol脚本的“被永封的大会员”功能<br>
-也就是，你不开启，使用下面的sess解析大会员视频<br>
-<img src="https://zhengfan2014.github.io/post-images/1608012168099.jpg" alt="" loading="lazy"><br>
-就是使用你主账号填写sess来解析大会员和普通视频</p>
-<p>如果你开启了，只要是视频解析都会使用这个sess来解析，但是其他的比如读取你的收藏，追番等还是用你主账号的sess。</p>
-<h3 id="关于内置弹幕的食用方法">关于内置弹幕的食用方法：</h3>
-<p>首先，在设置了开启内置弹幕功能<br>
-然后设置好弹幕缓存文件夹<br>
-在播放视频的时候，选择右下角的字幕<br>
-<img src="https://zhengfan2014.github.io/post-images/1608012187074.jpg" alt="" loading="lazy"><br>
-浏览字幕<br>
-<img src="https://zhengfan2014.github.io/post-images/1608012197522.jpg" alt="" loading="lazy"><br>
-选择你之前设置的文件夹位置，选择那个ass字幕文件<br>
-<img src="https://zhengfan2014.github.io/post-images/1608012208387.jpg" alt="" loading="lazy"><br>
-完成效果<br>
-<img src="https://zhengfan2014.github.io/post-images/1608012215377.jpg" alt="" loading="lazy"></p>
 <h3 id="下载地址">下载地址</h3>
 <ul>
 <li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
