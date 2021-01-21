@@ -2,13 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2021-01-17T12:44:21.224Z</updated>
+    <updated>2021-01-21T16:18:10.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
     <logo>https://zhengfan2014.github.io/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, zhengfan&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[douban 刮削器 测试版本]]></title>
+        <id>https://zhengfan2014.github.io/post/douban-gua-xue-qi-ce-shi-ban-ben/</id>
+        <link href="https://zhengfan2014.github.io/post/douban-gua-xue-qi-ce-shi-ban-ben/">
+        </link>
+        <updated>2021-01-21T16:02:55.000Z</updated>
+        <content type="html"><![CDATA[<p>改自kodi官方的tmdb刮削器，参考群晖豆瓣刮削器，使用了cloudflare worker代理<br>
+建议自己注册个cloudflare，在刮削器设置里使用自己的worker代理豆瓣api</p>
+<p>注册可以参考<a href="https://github.com/jswh/synology_video_station_douban_plugin">https://github.com/jswh/synology_video_station_douban_plugin</a></p>
+<h3 id="demo">demo</h3>
+<p><img src="https://zhengfan2014.github.io/post-images/1611245096246.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1611245115606.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1611245129656.png" alt="" loading="lazy"><br>
+<img src="https://zhengfan2014.github.io/post-images/1611245192730.png" alt="" loading="lazy"></p>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+<h3 id="参考文章">参考文章</h3>
+<ul>
+<li><a href="https://www.jswh.me/%e4%ba%a7%e5%93%81%e5%88%9b%e9%80%a0/synology-video-station-douban-plugin/">群晖Video Station豆瓣刮削器插件（改）</a></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[taptap for kodi 0.2.1]]></title>
         <id>https://zhengfan2014.github.io/post/taptap-for-kodi-021/</id>
@@ -380,29 +404,6 @@
 <li>新增 - 设置 - 海外模式，海外cdn替换，4k/1080p60显示开关</li>
 </ul>
 <figure data-type="image" tabindex="1"><img src="https://zhengfan2014.github.io/post-images/1608011500066.jpg" alt="" loading="lazy"></figure>
-<h3 id="下载地址">下载地址</h3>
-<ul>
-<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[reallive for kodi 0.1.2]]></title>
-        <id>https://zhengfan2014.github.io/post/reallive-for-kodi-012/</id>
-        <link href="https://zhengfan2014.github.io/post/reallive-for-kodi-012/">
-        </link>
-        <updated>2020-08-06T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>因为wbt5大佬的解析代码import了execjs，所以需要安装依赖 <strong>script.module.execjs.zip</strong>，用于解析斗鱼真实播放地址</p>
-</blockquote>
-<h3 id="更新内容">更新内容</h3>
-<ul>
-<li>修复 - 虎牙解析失效</li>
-<li>修复 - 斗鱼解析失效（感谢wbt5的realurl的代码）</li>
-</ul>
-<p>注：win系统下kodi解析斗鱼直播地址中会出现两次这种窗口<br>
-<img src="https://zhengfan2014.github.io/post-images/1608011817925.jpg" alt="" loading="lazy"><br>
-是execjs运行js代码生成的，属于正常现象😂</p>
 <h3 id="下载地址">下载地址</h3>
 <ul>
 <li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
