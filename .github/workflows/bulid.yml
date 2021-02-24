@@ -59,7 +59,7 @@ jobs:
         cp -r /workdir/gitee-blog/* /workdir/blog1
         git add .
         git add .github
-        git add ..nojekyll
+        git add .nojekyll
         git commit -m "Github Action自动修改并同步Gidea博客 - Cool!"
         git remote add gitee git@gitee.com:${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
         git push -u gitee ${{ env.GITEE_BRANCH }} --force
@@ -74,7 +74,7 @@ jobs:
         cp -r /workdir/github-blog/* /workdir/blog2
         git add .
         git add .github
-        git add ..nojekyll
+        git add .nojekyll
         git commit -m "[bot]为图片和css增加Cdn "
         git remote add github git@github.com:${{ env.GITHUB_USERNAME }}/${{ env.GITHUB_REPO }}.git
     - name: 提交到Github
