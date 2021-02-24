@@ -2,13 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2021-02-24T09:05:13.792Z</updated>
+    <updated>2021-02-24T10:35:40.926Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
     <logo>https://zhengfan2014.github.io/images/avatar.png</logo>
     <icon>https://zhengfan2014.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, zhengfan&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[taptap for kodi 0.2.2]]></title>
+        <id>https://zhengfan2014.github.io/post/taptap-for-kodi-022/</id>
+        <link href="https://zhengfan2014.github.io/post/taptap-for-kodi-022/">
+        </link>
+        <updated>2021-02-24T10:13:03.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
+<ul>
+<li>修复解析视频那个弹窗</li>
+</ul>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bangumi for kodi 0.2.1]]></title>
+        <id>https://zhengfan2014.github.io/post/bangumi-for-kodi/</id>
+        <link href="https://zhengfan2014.github.io/post/bangumi-for-kodi/">
+        </link>
+        <updated>2021-02-24T10:09:10.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
+<ul>
+<li>修复樱花动漫和bimibimi失效</li>
+</ul>
+<h3 id="下载地址">下载地址</h3>
+<ul>
+<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[bilibili for Kodi 0.5.8]]></title>
         <id>https://zhengfan2014.github.io/post/bilibili-for-kodi-058/</id>
@@ -354,52 +386,6 @@
 <ul>
 <li>修复插件打不开报错的问题</li>
 </ul>
-<h3 id="下载地址">下载地址</h3>
-<ul>
-<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[acfun for kodi 0.2.2]]></title>
-        <id>https://zhengfan2014.github.io/post/acfun-for-kodi-022/</id>
-        <link href="https://zhengfan2014.github.io/post/acfun-for-kodi-022/">
-        </link>
-        <updated>2020-08-29T16:00:01.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>感谢反馈，因为acfun小改了有关视频清晰度的json，所以失效了</p>
-</blockquote>
-<h3 id="更新内容">更新内容</h3>
-<ul>
-<li>修复播放视频失效问题</li>
-<li>新增视频列表简介显示</li>
-</ul>
-<figure data-type="image" tabindex="1"><img src="https://zhengfan2014.github.io/post-images/1608010924427.jpg" alt="" loading="lazy"></figure>
-<h3 id="下载地址">下载地址</h3>
-<ul>
-<li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[bangumi for kodi 0.2.0]]></title>
-        <id>https://zhengfan2014.github.io/post/bangumi-for-kodi-020/</id>
-        <link href="https://zhengfan2014.github.io/post/bangumi-for-kodi-020/">
-        </link>
-        <updated>2020-08-29T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
-<ul>
-<li>增加 - tucao弹幕网的api功能，可以看tucao网页版提示版权退稿的番剧了</li>
-<li>修复 - agefans.tw失效</li>
-<li>修复 - silisili失效</li>
-<li>修复 - 柠檬瞬间视频资源获取失败</li>
-<li>修复 - srsg失效</li>
-<li>修复 - clicli.me 失效</li>
-<li>新增 - zzzfun</li>
-<li>新增 - 动漫岛</li>
-<li>修复 - 其他细节优化</li>
-</ul>
-<p>PS:显示为粉色的网站使用弹幕插件搜索弹幕的时候会自动匹配番剧（如果a,b站有这部番的话）</p>
 <h3 id="下载地址">下载地址</h3>
 <ul>
 <li><a href="https://lanzous.com/u/zheng2014">蓝奏云</a></li>
