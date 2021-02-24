@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2021-02-24T07:11:58.089Z</updated>
+    <updated>2021-02-24T07:13:49.913Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
@@ -17,8 +17,8 @@
         <updated>2021-02-23T13:31:39.000Z</updated>
         <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
 <ul>
-<li>自动加载弹幕功能(感谢 <a href="">ArchieMeng</a>pull的代码)</li>
-<li>设置界面增加对英语的支持(感谢 <a href="">ArchieMeng</a>pull的代码)</li>
+<li>自动加载弹幕功能(感谢 <a href="https://github.com/archiemeng">ArchieMeng</a>pull的代码)</li>
+<li>设置界面增加对英语的支持(感谢 <a href="https://github.com/archiemeng">ArchieMeng</a>pull的代码)</li>
 </ul>
 <h3 id="下载地址">下载地址</h3>
 <ul>
