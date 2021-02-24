@@ -56,7 +56,7 @@ jobs:
         git add .
         git commit -m "Github Action自动修改并同步Gidea博客 - Cool!"
         git remote add gitee git@gitee.com:${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
-        git push -u gitee ${{ env.GITEE_BRANCH }}
+        git push -u gitee ${{ env.GITEE_BRANCH }} --force
     - name: 为Github推送准备
       run: |
         cd /workdir/github-blog
