@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengfan2014.github.io</id>
     <title>zhengfan&apos;Blog</title>
-    <updated>2021-02-24T10:36:45.992Z</updated>
+    <updated>2021-02-24T10:40:00.708Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengfan2014.github.io"/>
     <link rel="self" href="https://zhengfan2014.github.io/atom.xml"/>
@@ -46,7 +46,7 @@
         <id>https://zhengfan2014.github.io/post/bilibili-for-kodi-058/</id>
         <link href="https://zhengfan2014.github.io/post/bilibili-for-kodi-058/">
         </link>
-        <updated>2021-02-23T13:31:39.000Z</updated>
+        <updated>2021-02-18T13:31:39.000Z</updated>
         <content type="html"><![CDATA[<h3 id="更新内容">更新内容</h3>
 <ul>
 <li>自动加载弹幕功能(感谢 <a href="https://github.com/archiemeng">ArchieMeng</a>pull的代码)</li>
