@@ -42,49 +42,35 @@ jobs:
     - name: 运行python
       run: |
         python /workdir/gitee-blog/.github/re-gitee.py
-        python /workdir/gitee-blog/.github/re-github.py
+        python /workdir/github-blog/.github/re-github.py
     - name: 安装SSH钥匙
       uses: shimataro/ssh-key-action@v2
       with:
         key: ${{ secrets.GITEE_PRIVATE_KEY }}
         known_hosts: ${{ secrets.KNOWN_HOSTS }}
     - name: 提交到Gitee
-      run: |
-        sudo mkdir -p /workdir/blog1
-        sudo chown $USER:$GROUPS /workdir/blog1
-        cd /workdir/blog1
-        git init
-        git config --local user.email "${{ env.GITEE_USER_EMAIL }}"
-        git config --local user.name "Github Action"
-        cp -r /workdir/gitee-blog/* /workdir/blog1
+      run: | 
+        cd /workdir/gitee-blog/
+        git config --global user.email "${{ env.GITEE_USER_EMAIL }}"
+        git config --global user.name "Github Action"
         git add .
-        git add .github/
-        git add .nojekyll
         git commit -m "Github Action自动修改并同步Gidea博客 - Cool!"
         git remote add gitee git@gitee.com:${{ env.GITEE_USERNAME }}/${{ env.GITEE_REPO }}.git
-        git push -u gitee ${{ env.GITEE_BRANCH }} --force
+        git push -u gitee ${{ env.GITEE_BRANCH }}
     - name: 为Github推送准备
       run: |
-        sudo mkdir -p /workdir/blog2
-        sudo chown $USER:$GROUPS /workdir/blog2
-        cd /workdir/blog2
-        git init
+        cd /workdir/github-blog
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
-        cp -r /workdir/github-blog/* /workdir/blog2
         git add .
-        git add .github/
-        git add .nojekyll
         git commit -m "[bot]为图片和css增加Cdn "
-        git remote add github git@github.com:${{ env.GITHUB_USERNAME }}/${{ env.GITHUB_REPO }}.git
     - name: 提交到Github
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ env.GITHUB_BRANCH }}
         repository: ${{ env.GITHUB_USERNAME }}/${{ env.GITHUB_REPO }}
-        directory: /workdir/blog2
-        force: true
+        directory: /workdir/github-blog
     - name: 编译Gitee Page
       uses: yanglbme/gitee-pages-action@main
       with:
