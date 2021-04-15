@@ -23,9 +23,9 @@ gitee 仓库效果
 ![屏幕截图 2021-02-24 163138.jpg](https://i.loli.net/2021/02/24/WyuROm7CpIbBDfE.jpg)
 ## 安装
 
-1. 复制本仓库`.github`整个文件夹到你Gridea的`static`文件夹里面，并确保`static`文件夹里面有一个`.nojekyll` 的空文件
+### 1. 复制本仓库`.github`整个文件夹到你Gridea的`static`文件夹里面，并确保`static`文件夹里面有一个`.nojekyll` 的空文件
 
-2. 修改文件夹里`bulid.yml`里的env
+### 2. 修改文件夹里`bulid.yml`里的env
 ```yml
   ################## github 设置 ###################################################
   # 注意替换为你的 Github 用户名
@@ -47,12 +47,13 @@ gitee 仓库效果
   GITEE_BRANCH: master
   # 注意在 Settings->Secrets 配置 GITEE_PASSWORD
 ```
-3. 增加机密
+ps：两个python脚本也要记得修改  
+### 3. 增加机密
  - `GITEE_PASSWORD` : 你gitee账号的密码(用来自动刷新gitee page)
  - `GITEE_PRIVATE_KEY` : 你gitee仓库的私钥，用来免验证推送到gitee
  - `KNOWN_HOSTS` ： 第一次登录ssh后生成的，用来信任gitee的服务器
 
-4. 开始享受  
+### 4. 开始享受  
 ![](https://zhengfan2014.gitee.io/lotterysimulator/img/error.png)
 ## FAQ
 Q: action 跑到 Gitee 推送处卡住很久很久  
